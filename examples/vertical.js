@@ -3,36 +3,36 @@ webpackJsonp([4],{
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(330);
+	module.exports = __webpack_require__(258);
 
 
 /***/ },
 
-/***/ 330:
+/***/ 258:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	__webpack_require__(2);
+	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"rc-slider/assets/index.less\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	
-	var React = __webpack_require__(4);
-	var ReactDOM = __webpack_require__(35);
-	var Slider = __webpack_require__(256);
+	var React = __webpack_require__(3);
+	var ReactDOM = __webpack_require__(34);
+	var Slider = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"rc-slider\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	
 	var style = { float: 'left', width: 160, height: 400, marginBottom: 160, marginLeft: 50 };
 	var parentStyle = { overflow: 'hidden' };
 	
 	var marks = {
 	  '-10': '-10°C',
-	  0: React.createElement(
+	  '0': React.createElement(
 	    'strong',
 	    null,
 	    '0\xB0C'
 	  ),
-	  26: '26°C',
-	  37: '37°C',
-	  50: '50°C',
-	  100: {
+	  '26': '26°C',
+	  '37': '37°C',
+	  '50': '50°C',
+	  '100': {
 	    style: {
 	      color: 'red'
 	    },
