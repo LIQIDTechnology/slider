@@ -217,7 +217,7 @@ export default function createSlider(Component) {
     calcOffsetPercentage(value) {
       const scale = this.createScale().invert;
       const ratio = (scale(value) - scale(this.props.min)) / (scale(this.props.max) - scale(this.props.min));
-      let offset = ratio * 100;
+      const offset = ratio * 100;
       return offset;
     }
 
