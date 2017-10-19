@@ -1,23 +1,23 @@
 webpackJsonp([1],{
 
 /***/ 0:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(255);
+	module.exports = __webpack_require__(333);
 
 
-/***/ },
+/***/ }),
 
-/***/ 255:
-/***/ function(module, exports, __webpack_require__) {
+/***/ 333:
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"rc-slider/assets/index.less\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	__webpack_require__(2);
 	
-	var React = __webpack_require__(3);
-	var ReactDOM = __webpack_require__(34);
-	var Slider = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"rc-slider\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var React = __webpack_require__(4);
+	var ReactDOM = __webpack_require__(40);
+	var Slider = __webpack_require__(313);
 	
 	var style = { width: 400, margin: 50 };
 	var marks = {
@@ -165,7 +165,7 @@ webpackJsonp([1],{
 	  )
 	), document.getElementById('__react-content'));
 
-/***/ }
+/***/ })
 
 });
 //# sourceMappingURL=marks.js.map
